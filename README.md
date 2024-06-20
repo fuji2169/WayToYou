@@ -11,7 +11,7 @@ Pour créer et gérer notre base de données ainsi que développer notre applica
 2. **Accès à phpMyAdmin**:
    - Une fois WampServer installé, ouvrez votre navigateur et accédez à l'interface web de phpMyAdmin à l'adresse `http://localhost/phpmyadmin`.
    - Créez une nouvelle base de données nommée `waytoyou`.
-   - À l'intérieur de cette base de données, créez les tables suivantes : `users`, `points` et `routes`.
+   - Importez la base de donnée waytoyou_db.
 
 ### Préparation de l'environnement de codage avec VS Code
 
@@ -24,27 +24,17 @@ Pour créer et gérer notre base de données ainsi que développer notre applica
    - Téléchargez et installez Node.js depuis [le site officiel de Node.js](https://nodejs.org/).
 
 2. **Création d'une application React**:
-   - Ouvrez votre terminal.
-   - Utilisez la commande suivante pour créer une nouvelle application React nommée `waytoyou-app` :
-     ```
-     npx create-react-app waytoyou-app
-     ```
+   
    - Naviguez dans le dossier de votre application React :
      ```
-     cd waytoyou-app
+     cd waytoyou-pfe2024
      ```
 
-3. **Installation des dépendances nécessaires**:
-   - Utilisez npm (Node Package Manager) pour installer les packages suivants :
+4. **Installation des dépendances nécessaires**:
+   - Utilisez npm (Node Package Manager) pour installer les packages :
      ```
-     npm install react-leaflet leaflet react-select axios leaflet-routing-machine
+     npm install
      ```
-
-4. **Organisation de l'application React**:
-   - Créez les dossiers suivants pour organiser votre projet :
-     - `components` (pour les composants React)
-     - `routes` (pour la gestion des routes)
-     - `assets` (pour les ressources telles que les images, les styles, etc.)
 
 5. **Démarrage de l'application React**:
    - Lancez votre application sur son port par défaut (généralement le port 3000) avec la commande :
@@ -59,27 +49,13 @@ Pour créer et gérer notre base de données ainsi que développer notre applica
    - Téléchargez et installez Composer depuis [le site officiel de Composer](https://getcomposer.org/).
 
 2. **Création d'un projet Laravel**:
-   - Ouvrez votre terminal.
-   - Utilisez la commande suivante pour créer un nouveau projet Laravel nommé `waytoyou-laravel` :
-     ```
-     composer create-project --prefer-dist laravel/laravel waytoyou-laravel
-     ```
-   - Naviguez dans le dossier de votre projet Laravel :
-     ```
-     cd waytoyou-laravel
+
+     cd backend-waytoyou-pfe2024
      ```
 
-3. **Liaison avec la base de données**:
-   - Configurez votre fichier `.env` pour spécifier les paramètres de connexion à la base de données.
-
-4. **Création des routes et des contrôleurs nécessaires**:
-   - Créez les routes et les contrôleurs selon les besoins de votre application.
-
-5. **Lancement du projet Laravel**:
+3. **Lancement du projet Laravel**:
    - Utilisez la commande artisan pour démarrer votre projet Laravel :
      ```
      php artisan serve
      ```
    - Accédez à votre application Laravel à l'adresse `http://localhost:8000`.
-
-En suivant ces étapes avec les outils et commandes spécifiés, vous pourrez créer et développer efficacement votre application web avec React et Laravel, tout en utilisant WampServer pour gérer votre base de données MySQL via phpMyAdmin.
