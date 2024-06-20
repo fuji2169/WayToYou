@@ -1,0 +1,91 @@
+.destination-map {
+  margin: 1rem 1rem;
+}
+.destination-map button:hover {
+  background-color: #01959a;
+}
+.destination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4.5rem;
+  align-items: start;
+  box-shadow: 0 5px 25px 2px rgba(0, 0, 0, 0.11);
+  border-radius: 7px;
+  padding: 1rem;
+}
+.coordonnees {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding-right: 10px;
+  gap: 10px;
+}
+.coordonnees label {
+  font-size: 0.8rem;
+  text-align: start;
+  margin-left: 5px;
+}
+.find-btn {
+  width: 100%;
+  margin-top: 10px;
+}
+.start-des {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.start-destination {
+  width: 85%;
+}
+.start-des button {
+  height: 40px;
+  width: 15%;
+}
+.map {
+  position: relative;
+  width: 70%;
+}
+
+@media screen and (max-width: 850px) {
+  .destination {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .coordonnees {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .start-destination {
+    width: 100%;
+  }
+
+  .start-des {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .start-des button {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .find-btn {
+    width: 100%;
+  }
+
+  .map {
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  label {
+    font-size: 14px;
+  }
+}
