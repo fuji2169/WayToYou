@@ -50,6 +50,7 @@ Pour créer et gérer notre base de données ainsi que développer notre applica
 
 2. **Création d'un projet Laravel**:
 
+     ```
      cd backend-waytoyou-pfe2024
      ```
 
