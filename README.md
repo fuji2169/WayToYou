@@ -10,7 +10,7 @@ Pour créer et gérer notre base de données ainsi que développer notre applica
 
 2. **Accès à phpMyAdmin**:
    - Une fois WampServer installé, ouvrez votre navigateur et accédez à l'interface web de phpMyAdmin à l'adresse `http://localhost/phpmyadmin`.
-   - Créez une nouvelle base de données nommée `waytoyou`.
+   - Créez une nouvelle base de données nommée `waytoyou_db`.
    - Importez la base de donnée waytoyou_db.
 
 ### Préparation de l'environnement de codage avec VS Code
@@ -48,10 +48,13 @@ Pour créer et gérer notre base de données ainsi que développer notre applica
 1. **Installation de Composer**:
    - Téléchargez et installez Composer depuis [le site officiel de Composer](https://getcomposer.org/).
 
-2. **Création d'un projet Laravel**:
+2. **Installation des dépendences de Laravel**:
 
      ```
      cd backend-waytoyou-pfe2024
+     ```
+     ```
+     composer install
      ```
 
 3. **Lancement du projet Laravel**:
