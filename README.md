@@ -56,6 +56,7 @@ Pour créer et gérer notre base de données ainsi que développer notre applica
      ```
      composer install
      ```
+   - Noubliez pas de modifier le fichier .env pour ajouter les informations de la base des données
 
 3. **Lancement du projet Laravel**:
    - Utilisez la commande artisan pour démarrer votre projet Laravel :
