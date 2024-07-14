@@ -61,4 +61,4 @@ Pour créer et gérer notre base de données ainsi que développer notre applica
      ```
    - Accédez à votre application Laravel à l'adresse `http://localhost:8000`.
 4. **Accés au fichiers enregistrés des coordonnées**:
-   - Accéder au chemin backend-waytoyou-pfe2024\storage\app\(nom d'utilisateur).txt pour récupérer les points choisis par un utilisateur.
+   - Accéder au chemin backend-waytoyou-pfe2024\storage\app\\(nom d'utilisateur).txt pour récupérer les points choisis par un utilisateur.
