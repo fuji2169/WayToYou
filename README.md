@@ -1,5 +1,5 @@
 # WayToYou
-Une application web et mobile pour visualiser des trajets des vehicules entre un point de départ et un point d'arrivé dans une carte interactive.
+Une application web et mobile pour visualiser des trajets des vehicules entre un point de départ, des points d'arrets et un point d'arrivé dans une carte interactive.
 # Guide d'installation
 Pour créer et gérer notre base de données ainsi que développer notre application, nous allons suivre plusieurs étapes avec des outils spécifiques.
 
